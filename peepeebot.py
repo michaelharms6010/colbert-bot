@@ -28,6 +28,7 @@ def compoundSimple():
 
 adjList = []
 
+
 for i in range(random.randint(0,3)):
     adjList.append(chooseRandomWord(adjectives).capitalize())
 
@@ -35,13 +36,16 @@ for i in range(random.randint(0,3)):
 def composeHeadline():
     return "Why " + chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize() + " " + chooseRandomWord(prepPhrases) + " " + " ".join(adjList) + " " + chooseRandomWord(nouns).capitalize()
 
-
+def composeQuestion():
+    return "Is " + chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(prepPhrases) + " a " + chooseRandomWord(adjectives).capitalize() + " " + chooseRandomWord(nouns).capitalize() + "?"
 
 
 functionArray = [composeSimple, composeAdverbPrep, compoundSimple, composeHeadline, composeAdverbPrep, composeHeadline, compoundSimple]
 outfile = open("headlines.txt", "w+")
 for i in range(10):
     outfile.write(functionArray[random.randint(0,len(functionArray)-1)]() + "\n") 
+
+print composeQuestion()
 
 
 

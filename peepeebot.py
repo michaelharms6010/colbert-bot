@@ -9,7 +9,8 @@ adverbs = ["when", "while", "slyly", "trecherously", "secretly", "subsequently"]
 adjectives = ["unhinged", "racist", "golden", "fluid", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
 conjunctions = [ "and", "or", "but", "for" , "yet" ]
-
+questionWords= ["what", "why", "when", "how"]
+sources = ["Unnamed Source", "Anonymous Source", "Senator", "Congressman", "Congresswoman", "Veteran Journalist", "Veteran", "Intelligence Official"]
 
 # adverb noun verb prepphrase adjective noun
 

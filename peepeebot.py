@@ -5,7 +5,7 @@ nouns = ["dispute", "drama", "debate", "nominee", "nomination", "Senator", "unna
 verbs = ["explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "nutted, ""dog whistled", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
 prepPhrases = ["on top of", "behind", "below", "underneath", "around", "between", "next to", "beneath", "betwixt"]
 adverbs = ["when", "while", "slyly", "trecherously", "secretly", "subsequently"]
-adjectives = ["racist", "golden", "fluid", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
+adjectives = ["unhinged", "racist", "golden", "fluid", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
 conjunctions = [ "and", "or", "but", "for" , "yet" ]
 

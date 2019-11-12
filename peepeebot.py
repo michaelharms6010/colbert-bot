@@ -1,7 +1,7 @@
 import random
 ## Todos:
 # Add hearsay format
-# 
+# Figure out capitalization handling
 
 nouns = ["whistleblower", "dispute", "drama", "debate", "nominee", "nomination", "Senator", "unnamed Source", "dictator", "Hitler", "fascist", "tyrant", "Nazi", "President Trump", "Vladimir Putin", "Trump", "Putin", "Drumph","pee-pee", "urine", "golden shower", "leaker", "leak", "cheeto", "President", "Russian", "Kremlin", "Russia", "prostitute", "grifter", "bed", "Obama", "racism"]
 verbs = ["raged", "blew", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "nutted, ""dog whistled", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
@@ -20,32 +20,32 @@ def chooseRandomWord(wordSet):
 
 
 def composeAdverbPrep():
-    return chooseRandomWord(adverbs).capitalize() + " " + chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize() + " " + chooseRandomWord(prepPhrases) + " " + chooseRandomWord(adjectives).capitalize() + " " + chooseRandomWord(nouns).capitalize()
+    return chooseRandomWord(adverbs).title() + " " + chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + " " + chooseRandomWord(prepPhrases) + " " + chooseRandomWord(adjectives).title() + " " + chooseRandomWord(nouns).title()
 
 def composeSimple():
-    return chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize()
+    return chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title()
 
 def compoundSimple():
-    return chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize() + ", " + chooseRandomWord(conjunctions).capitalize() + " "+ chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize()
+    return chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + ", " + chooseRandomWord(conjunctions).title() + " "+ chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title()
 
 
 adjList = []
 
 
 for i in range(random.randint(0,3)):
-    adjList.append(chooseRandomWord(adjectives).capitalize())
+    adjList.append(chooseRandomWord(adjectives).title())
 
 
 def composeHeadline():
-    return "Why " + chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(verbs).capitalize() + " " + chooseRandomWord(prepPhrases) + " " + " ".join(adjList) + " " + chooseRandomWord(nouns).capitalize()
+    return "Why " + chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + " " + chooseRandomWord(prepPhrases) + " " + " ".join(adjList) + " " + chooseRandomWord(nouns).title()
 
 def composeQuestion():
-    return "Is " + chooseRandomWord(nouns).capitalize() + " " + chooseRandomWord(prepPhrases) + " a " + chooseRandomWord(adjectives).capitalize() + " " + chooseRandomWord(nouns).capitalize() + "?"
+    return "Is " + chooseRandomWord(nouns).title() + " " + chooseRandomWord(prepPhrases) + " a " + chooseRandomWord(adjectives).title() + " " + chooseRandomWord(nouns).title() + "?"
 
 
 functionArray = [composeQuestion, composeSimple, composeAdverbPrep, compoundSimple, composeHeadline, composeAdverbPrep, composeHeadline, compoundSimple]
 outfile = open("headlines.txt", "w+")
-for i in range(10):
+for i in range(1000):
     outfile.write(functionArray[random.randint(0,len(functionArray)-1)]() + "\n") 
 
 

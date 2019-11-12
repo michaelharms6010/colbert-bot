@@ -3,6 +3,8 @@ import random
 ## Todos:
 # Add hearsay format
 # Add a/an/the and article handling
+# Expand adjectives
+# Expand Adverbs
 
 nouns = ["whistleblower", "dispute", "drama", "debate", "nominee", "nomination", "Senator", "unnamed Source", "dictator", "Hitler", "fascist", "tyrant", "Nazi", "President Trump", "Vladimir Putin", "Trump", "Putin", "Drumph","pee-pee", "urine", "golden shower", "leaker", "leak", "cheeto", "President", "Russian", "Kremlin", "Russia", "prostitute", "grifter", "bed", "Obama", "racism"]
 verbs = ["raged", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "dog whistled", "blew", "nutted", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]

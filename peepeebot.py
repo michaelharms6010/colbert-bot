@@ -1,16 +1,18 @@
 import random
+
 ## Todos:
 # Add hearsay format
+# Add a/an/the and article handling
 
 nouns = ["whistleblower", "dispute", "drama", "debate", "nominee", "nomination", "Senator", "unnamed Source", "dictator", "Hitler", "fascist", "tyrant", "Nazi", "President Trump", "Vladimir Putin", "Trump", "Putin", "Drumph","pee-pee", "urine", "golden shower", "leaker", "leak", "cheeto", "President", "Russian", "Kremlin", "Russia", "prostitute", "grifter", "bed", "Obama", "racism"]
-verbs = ["raged", "blew", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "nutted, ""dog whistled", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
-prepPhrases = ["within", "among", "on top of", "behind", "below", "underneath", "around", "between", "next to", "beneath", "betwixt"]
+verbs = ["raged", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "dog whistled", "blew", "nutted", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
+prepPhrases = ["by", "within", "among", "on top of", "behind", "below", "underneath", "around", "between", "next to", "beneath", "betwixt"]
 adverbs = ["impulsively", "racistly", "when", "while", "slyly", "trecherously", "secretly", "subsequently"]
-adjectives = ["impulsive", "unhinged", "racist", "golden", "fluid", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
+adjectives = ["impulsive", "unhinged", "racist", "golden", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
 conjunctions = [ "and", "or", "but", "for" , "yet" ]
 questionWords= ["what", "why", "when", "how"]
-sources = ["whistleblower", "Unnamed Source", "Anonymous Source", "Senator", "Congressman", "Congresswoman", "Veteran Journalist", "Veteran", "Intelligence Official"]
+sources = ["Veteran CIA Agent", "Intelligence Community", "whistleblower", "Unnamed Source", "Anonymous Source", "Senator", "Congressman", "Congresswoman", "Veteran Journalist", "Veteran", "Intelligence Official"]
 
 # adverb noun verb prepphrase adjective noun
 

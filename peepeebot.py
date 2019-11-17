@@ -10,7 +10,7 @@ nouns = ["China", "trade war", "House speaker", "diplomat", "whistleblower", "di
 verbs = ["will testify", "pushed out", "raged", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "dog whistled", "blew", "nutted", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
 prepPhrases = ["by", "within", "among", "on top of", "behind", "below", "underneath", "around", "between", "next to", "beneath", "betwixt"]
 adverbs = ["impulsively", "racistly", "when", "while", "slyly", "trecherously", "secretly", "subsequently"]
-adjectives = ["impulsive", "unhinged", "racist", "golden", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
+adjectives = ["offensive", "impulsive", "unhinged", "racist", "golden", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
 conjunctions = [ "and", "or", "but", "for" , "yet" ]
 questionWords= ["what", "why", "when", "how"]

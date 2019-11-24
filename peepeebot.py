@@ -6,10 +6,10 @@ import random
 # Expand adjectives
 # Expand Adverbs
 
-nouns = ["twitter", "calls for impeachment", "witness", "China", "trade war", "House speaker", "diplomat", "whistleblower", "dispute", "drama", "debate", "nominee", "nomination", "Senator", "unnamed Source", "dictator", "Hitler", "fascist", "tyrant", "Nazi", "President Trump", "Vladimir Putin", "Trump", "Putin", "Drumph","pee-pee", "urine", "golden shower", "leaker", "leak", "cheeto", "President", "Russian", "Kremlin", "Russia", "prostitute", "grifter", "bed", "Obama", "racism"]
+nouns = ["tweet", "twitter", "calls for impeachment", "witness", "China", "trade war", "House speaker", "diplomat", "whistleblower", "dispute", "drama", "debate", "nominee", "nomination", "Senator", "unnamed Source", "dictator", "Hitler", "fascist", "tyrant", "Nazi", "President Trump", "Vladimir Putin", "Trump", "Putin", "Drumph","pee-pee", "urine", "golden shower", "leaker", "leak", "cheeto", "President", "Russian", "Kremlin", "Russia", "prostitute", "grifter", "bed", "Obama", "racism"]
 verbs = ["incited", "lashed out", "will testify", "pushed out", "raged", "explained", "tinkled", "flirted", "touched", "signed", "voted", "betrayed", "lied", "dog whistled", "blew", "nutted", "peed", "urinated", "unload", "leaked", "said", "tweeted", "reported", "soaked", "grifted", "undid", "pinched", "kissed", "sucked", "laughed", "stroked", "dumped", "impeached"]
 prepPhrases = ["by", "within", "among", "on top of", "behind", "below", "underneath", "around", "between", "next to", "beneath", "betwixt"]
-adverbs = ["impulsively", "racistly", "when", "while", "slyly", "trecherously", "secretly", "subsequently"]
+adverbs = ["anonymous", "impulsively", "racistly", "when", "while", "slyly", "trecherously", "secretly", "subsequently"]
 adjectives = ["offensive", "impulsive", "unhinged", "racist", "golden", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
 conjunctions = [ "and", "or", "but", "for" , "yet" ]

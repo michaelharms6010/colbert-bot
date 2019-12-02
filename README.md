@@ -2,10 +2,12 @@
 
 Experimenting with parsing english headlines from a silly dictionary of words. Goofy laffs at media hysterics. I respect everyone on all sides much to the dismay of red team/blue team cheerleaders so no flame no anger please please 🙏
 
-Currently parses three formats of sentences from a very limited dictionary.
+As the dictionary expands, this is losing comprehensibility. 
 
 ## To Do
 
+
+-Rethink formatting and specific categories of words / structure
 -Expand Dictionary
 -Specify good intro Adverbs, specify more clause structures
 -Build out more sentence structures

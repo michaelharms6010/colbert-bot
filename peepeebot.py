@@ -12,7 +12,7 @@ prepPhrases = ["without the knowledge of", "by", "within", "among", "on top of",
 adverbs = ["impulsively", "racistly", "when", "while", "slyly", "trecherously", "secretly", "subsequently"]
 adjectives = ["clandestine" , "unnamed", "shocking", "problematic", "offensive", "impulsive", "unhinged", "racist", "golden", "orange", "cheeto-colored", "stupid", "xenophobic", "divisive", "misogynistic", "hateful", "dishonest", "greedy"]
 
-conjunctions = [ "and", "or", "but", "for" , "yet" ]
+conjunctions = [ "and", "or", "but", "yet" ]
 questionWords= ["what", "why", "when", "how"]
 sources = ["Veteran CIA Agent", "Intelligence Community", "whistleblower", "Unnamed Source", "Anonymous Source", "Senator", "Congressman", "Congresswoman", "Veteran Journalist", "Veteran", "Intelligence Official"]
 

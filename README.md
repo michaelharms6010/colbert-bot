@@ -4,6 +4,8 @@ Experimenting with parsing english headlines from a silly dictionary of words. G
 
 As the dictionary expands, this is losing comprehensibility. 
 
+Official bot of r/russialagoREVAMPED
+
 ## To Do
 
 

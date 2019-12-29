@@ -30,23 +30,20 @@ def composeSimple():
 
 def compoundSimple():
     return chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + ", " + chooseRandomWord(conjunctions).title() + " "+ chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title()
+
 def sourcedSimple():
     return chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + ", says " + chooseRandomWord(sources).title()
 
-
 adjList = []
-
 
 for i in range(random.randint(0,3)):
     adjList.append(chooseRandomWord(adjectives).title())
-
 
 def composeHeadline():
     return "Why " + chooseRandomWord(nouns).title() + " " + chooseRandomWord(verbs).title() + " " + chooseRandomWord(prepPhrases) +" " + " ".join(adjList) + " " + chooseRandomWord(nouns).title()
 
 def composeQuestion():
     return "Is " + chooseRandomWord(nouns).title() + " " + chooseRandomWord(prepPhrases) + " a " + chooseRandomWord(adjectives).title() + " " + chooseRandomWord(nouns).title() + "?"
-
 
 functionArray = [sourcedSimple, composeQuestion, composeSimple, composeAdverbPrep, compoundSimple, composeHeadline, composeAdverbPrep, composeHeadline, compoundSimple]
 outfile = open("headlines.txt", "w+")

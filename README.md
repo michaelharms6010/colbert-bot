@@ -8,7 +8,6 @@ Official bot of r/russialagoREVAMPED
 
 ## To Do
 
-
 -Rethink formatting and specific categories of words / structure
 -Expand Dictionary
 -Specify good intro Adverbs, specify more clause structures

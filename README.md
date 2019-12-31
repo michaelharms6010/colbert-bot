@@ -12,3 +12,4 @@ Official bot of r/russialagoREVAMPED
 -Expand Dictionary
 -Specify good intro Adverbs, specify more clause structures
 -Build out more sentence structures
+-Fix title casing of acronyms
